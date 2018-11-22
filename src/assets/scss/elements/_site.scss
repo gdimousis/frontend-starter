@@ -1,0 +1,20 @@
+
+.container{
+    margin: auto;
+    max-width: $max-width;
+    padding: 0 20px;
+    &:after{
+        content: '';
+        display: table;
+        height: 1px;
+        clear: both;
+    }
+}
+
+.box{
+    display: block;
+    background-color: rgba($primary, 0.6);
+    border: 1px solid $primary;
+    min-height: 50px;
+}
+
